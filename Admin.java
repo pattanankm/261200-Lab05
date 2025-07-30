@@ -5,7 +5,7 @@ public class Admin extends User {
         super(name, year, month, date);
     }
 
-    @Override
+    @Override // ทบทวนoverride ให้เข้าใจกว่านี้ด้วย
     public void displayInfo(){
         super.displayInfo();
         System.out.println("User type: admin");
